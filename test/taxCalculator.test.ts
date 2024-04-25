@@ -1,4 +1,4 @@
-import { calculateVAT } from './taxCalculator';
+import { calculateVAT } from '../src/taxCalculator';
 
 describe('calculateVAT', () => {
     test('calculates 20% VAT correctly', () => {
